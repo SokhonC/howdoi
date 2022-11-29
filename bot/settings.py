@@ -1,8 +1,9 @@
 import os
-from dotenv import load_dotenv
-load_dotenv()
+# from dotenv import load_dotenv
+# load_dotenv()
 
-BOT_TOKEN = os.getenv('BOT_TOKEN')
+# BOT_TOKEN = os.getenv('BOT_TOKEN')
+BOT_TOKEN = '5927454928:AAFBlbOyRVnXVW59XwsSzMubmEOp4YIWp7Q'
 if not BOT_TOKEN:
     print('You have forgot to set BOT_TOKEN')
     quit()
